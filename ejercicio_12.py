@@ -9,3 +9,5 @@ for producto in productos:
     valor_producto=producto["precio"] * producto["cantidad"]
     valor_total+=valor_producto
     print(f"-{producto['nombre']}: {producto['cantidad']} unidades a ${producto['precio']} c/u = ${valor_producto}")
+
+print(f"\nValor total del inventario: ${valor_total}")
