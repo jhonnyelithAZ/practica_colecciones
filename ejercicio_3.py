@@ -1,4 +1,4 @@
 
 helados=["vainilla", "chocolate", "brownie", "mantecado"]
-helados.sort()
-print(helados)
+invertido = helados[::-1]
+print(invertido)
